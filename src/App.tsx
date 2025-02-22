@@ -15,6 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-gray-100">
+        <h1 className="text-2xl font-bold text-center py-4">quiz label from diy</h1>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
